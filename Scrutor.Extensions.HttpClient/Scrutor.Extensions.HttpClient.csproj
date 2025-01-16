@@ -38,9 +38,11 @@
 		</None>
 	</ItemGroup>
 
-	<ItemGroup>
+	<ItemGroup Label="Nuget Packages">
 		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.1" />
-		<PackageReference Include="Scrutor" Version="5.1.2" />
+
+		<!-- Limit to 5.x due to breaking change in 6.x -->
+		<PackageReference Include="Scrutor" Version="[5.0.0, 6.0.0)" />
 	</ItemGroup>
 
 </Project>
