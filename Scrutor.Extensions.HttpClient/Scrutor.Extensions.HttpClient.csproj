@@ -23,7 +23,7 @@
 
 	<!-- This defines a default versioning -->
 	<PropertyGroup Label="Versioning">
-		<Version>5.1.2-alpha</Version>
+		<Version>5.1.2-alpha.2</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	</PropertyGroup>
 
