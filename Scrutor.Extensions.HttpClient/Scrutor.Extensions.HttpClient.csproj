@@ -17,13 +17,13 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<IncludeSymbols>True</IncludeSymbols>
+		<IncludeSymbols>False</IncludeSymbols>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<!-- This defines a default versioning -->
 	<PropertyGroup Label="Versioning">
-		<Version>5.1.2-alpha.2</Version>
+		<Version>5.1.2-alpha.3</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	</PropertyGroup>
 
